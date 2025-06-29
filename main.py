@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     # Directories
     parser.add_argument('--model_name', default='FMID',type=str)
-    parser.add_argument('--data_dir', type=str, default=r'E:\mydatas\MYRESIDEOTS')
+    parser.add_argument('--data_dir', type=str, default='')
     parser.add_argument('--mode', default='test', choices=['train', 'test'], type=str)
 
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 
     # Test
-    parser.add_argument('--test_model', type=str, default=r'W:\DB\FMID-main\checkpoint\reside.pkl')
+    parser.add_argument('--test_model', type=str, default='')
     parser.add_argument('--save_image', type=bool, default=True, choices=[True, False])
 
     args = parser.parse_args()
