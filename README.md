@@ -17,13 +17,13 @@ python setup.py install
 cd ..
 ~~~
 ## Train
-
+~~~
 python main.py --mode train --data_dir your_path/RESIDE
-
+~~~
 ## Test
-
+~~~
 python main.py --mode test --data_dir your_path/RESIDE --test_model path_to_weight
-
+~~~
 ## Eval
 
 You can use psnrssim.py to calculate PSNR and SSIM.
