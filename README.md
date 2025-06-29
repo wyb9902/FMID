@@ -29,7 +29,7 @@ python main.py --mode test --data_dir your_path/RESIDE --test_model path_to_weig
 You can use `psnrssim.py` to calculate PSNR and SSIM.
 
 ## Trained weights
-To test on RESIDE-SOTS outdoor, we provide the Trained weights in the checkpoint. 
+To test on RESIDE-SOTS outdoor, we provide the Trained weights in the 'checkpoint'. 
 
 You can download the train and test dataset from [[gdrive](https://drive.google.com/drive/folders/1GFycRaUHnvt8BAkQ5QjUw-Xrjovu0b2U?usp=drive_link)].
 
