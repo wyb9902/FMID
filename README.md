@@ -31,11 +31,11 @@ You can use `psnrssim.py` to calculate PSNR and SSIM.
 ## Trained weights
 To test on RESIDE-SOTS outdoor, we provide the Trained weights in the checkpoint. 
 
-You can download the train and test dataset from [gdrive](https://drive.google.com/drive/folders/1GFycRaUHnvt8BAkQ5QjUw-Xrjovu0b2U?usp=drive_link)
+You can download the train and test dataset from [[gdrive](https://drive.google.com/drive/folders/1GFycRaUHnvt8BAkQ5QjUw-Xrjovu0b2U?usp=drive_link)].
 
 Other data be provided after the paper is accpeted.
 
-For training and testing on your own dataset, your directory structure should look like this
+For training and testing on your own dataset, your directory structure should look like this:
 
 `Your path` <br/>
 `├──RESIDE` <br/>
@@ -63,7 +63,7 @@ If you find this project useful for your research, please consider citing:
 ~~~
 
 ### Acknowledgments
-Our code is developed based on ChaIR. We thank the awesome work provided by [ChaIR](https://github.com/c-yn/ChaIR).
+Our code is developed based on ChaIR. We thank the awesome work provided by [[ChaIR](https://github.com/c-yn/ChaIR)].
 And great thanks to editors and anonymous reviewers for future useful feedback.
 
 ## Contact
