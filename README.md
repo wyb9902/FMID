@@ -22,16 +22,16 @@ python main.py --mode train --data_dir your_path/RESIDE
 ~~~
 ## Test
 ~~~
-python main.py --mode test --data_dir your_path/RESIDE --test_model path_to_weight
+python main.py --mode test --data_dir your_path/RESIDE --test_model your_path/RESIDE/checkpoint/reside.pkl
 ~~~
 ## Eval
 
 You can use `psnrssim.py` to calculate PSNR and SSIM.
 
 ## Trained weights
-To test on RESIDE-SOTS outdoor, we provide the Trained weights in the `checkpoint`. 
+To test on RESIDE-SOTS outdoor, we provide the trained weights in the `checkpoint`. 
 
-You can download the train and test dataset from [[gdrive](https://drive.google.com/drive/folders/1GFycRaUHnvt8BAkQ5QjUw-Xrjovu0b2U?usp=drive_link)].
+You can download the train and test RESIDE dataset, and trained weights from [[gdrive](https://drive.google.com/drive/folders/1GFycRaUHnvt8BAkQ5QjUw-Xrjovu0b2U?usp=drive_link)].
 
 Other data be provided after the paper is accpeted.
 
