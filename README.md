@@ -51,15 +51,7 @@ For training and testing on your own dataset, your directory structure should lo
 ## Citation
 If you find this project useful for your research, please consider citing:
 ~~~
-@article{ ,
-  title={ },
-  author={},
-  journal={},
-  volume={},
-  pages={},
-  year={},
-  publisher={}
-}
+Wang, Y., You, Z., Xia, X., Zhou, J., & Li, Y. (2026). Feature enhancement and fusion complementary modulation model for maritime image dehazing. Optics & Laser Technology, 202, 115352.
 ~~~
 
 ### Acknowledgments
